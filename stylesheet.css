@@ -41,10 +41,14 @@ main h1 {
 
 main p{ 
     margin-top: 25px;
-    font-size: 18px;
+    font-size: 15px;
 }
 
 
 a:hover {
     color: #bba934; 
+}
+
+#title { 
+    font-size: 18px;
 }

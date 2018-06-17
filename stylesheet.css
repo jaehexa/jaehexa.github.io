@@ -1,0 +1,50 @@
+
+body { 
+    background-color: #009c3b;
+    background: -moz-linear-gradient(45deg, #007242 0%, #009c3b 77%, #009c3b 77%, #00af08 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg, #007242 0%,#009c3b 77%,#009c3b 77%,#00af08 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg, #007242 0%,#009c3b 77%,#009c3b 77%,#00af08 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    margin: 0; 
+    padding: 0;
+
+}
+
+header {
+    box-sizing: border-box;
+    padding: 30px;
+    float: right;
+}
+
+header img { 
+    width: 35px;
+    opacity: 0.5;
+}
+
+header img:hover {
+    opacity: 1;
+}
+
+main, a {
+    color: #ffdf00;
+    font-family: 'Exo', sans-serif;
+    text-align: center;
+    clear: both;
+}
+
+main h1 {
+    width: 100%;
+    font-size: 23vw;
+    font-weight: bolder;
+    margin: auto;
+    padding-top: 15vh;
+}
+
+main p{ 
+    margin-top: 25px;
+    font-size: 18px;
+}
+
+
+a:hover {
+    color: #bba934; 
+}
